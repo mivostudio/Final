@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:lighter;
+	color:#FFFFFF;
+	border-color:#373636
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+ 
+.pic {
+  border: 10px solid #fff; 
+  float: left;
+  height: 600px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111; 
+}
+.Tempos {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: 36px;
+}
+body {
+    background-image: url(http://subtlepatterns.com/patterns/dark_wall.png);
+    background-repeat: repeat;
+    height: 500px;
+    padding: 1px;
+}
+@media screen and (max-width: 480px) {
+	.expand {
+		float:none;
+		width:auto;
+		height:auto;
+		max-width:70%;
+	}
+	. {
+		float:none;
+		width:auto;
+		max-width: 100%;
+		height:auto;
+}
+.pic {
+  border: 10px solid #fff; 
+  float: left;
+  height: 600px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111; 
+}
+}
